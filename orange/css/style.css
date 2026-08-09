@@ -20,10 +20,6 @@ body {
   background: #fff;
 }
 
-service-desc {
-  color: #555 !important;
-}
-
 #page {
   position: relative;
   overflow-x: hidden;
@@ -120,7 +116,6 @@ figure {
 .fh5co-nav .left-menu,
 .fh5co-nav .right-menu,
 .fh5co-nav .logo {
-  display: inline-block;
   width: 40%;
   float: left;
 }
@@ -549,14 +544,12 @@ figure {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
 }
 
 .fh5co-social-icons li a {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
   color: #F36363;
   padding-left: 10px;
   padding-right: 10px;
@@ -584,7 +577,6 @@ figure {
   left: 0;
   top: .05em;
   font-family: 'icomoon';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1152,7 +1144,6 @@ figure {
   position: absolute;
   right: 0px;
   font-family: 'icomoon';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;

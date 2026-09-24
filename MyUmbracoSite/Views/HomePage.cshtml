@@ -1,6 +1,22 @@
 ﻿@using Umbraco.Cms.Web.Common.PublishedModels;
 @inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.HomePage>
 @using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+
 @{
-	Layout = null;
+    Layout = null;
+}
+
+<h1>@Model.Value("title")</h1>
+
+<div>
+    @Model.Value("bodyText")
+</div>
+
+@{
+    var image = Model.Value<Umbraco.Cms.Core.Models.MediaWithCrops>("heroImage");
+}
+
+@if (image != null)
+{
+    <img src="@image.Url()" alt="Hero Image" />
 }
